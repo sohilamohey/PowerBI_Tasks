@@ -5,7 +5,7 @@
 
 
 ## 2. [Sales Dashboard](https://github.com/sohilamohey/PowerBI_Tasks/tree/main/2.%20Sales%20Dashboard)
-![logo](https://github.com/sohilamohey/PowerBI_Tasks/tree/main/2.%20Sales%20Dashboard)
+![logo](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/2.%20Sales%20Dashboard/Sales.png)
 
 ## 3. [Sales Dashboard](https://github.com/sohilamohey/PowerBI_Tasks/tree/main/3.%20Sales%20Dashboard)
 ![logo](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/3.%20Sales%20Dashboard/Main%20Dashboard.png)
