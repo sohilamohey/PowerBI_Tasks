@@ -1,4 +1,4 @@
-# 6 Dashboards on different data sets:
+# 6 Dashboards on different datasets:
 
 ## [1. Kickstarter Dashboard](https://github.com/sohilamohey/PowerBI_Tasks/tree/main/1.%20Kickstarter%20Dashboard)
 ![logo](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/1.%20Kickstarter%20Dashboard/Kickstarter.png)
