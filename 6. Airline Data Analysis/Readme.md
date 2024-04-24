@@ -1,5 +1,4 @@
 # Airline Data Analysis
-# Airline Data Analysis
 
 ## Description
 This repository contains the analysis of airline data using Power BI. The analysis involves importing the airline dataset into Power BI, performing data cleaning, transformation, and modeling, creating insightful visualizations, and deriving meaningful insights to support decision-making in the airline industry.
@@ -13,7 +12,7 @@ This repository contains the analysis of airline data using Power BI. The analys
 
 ### Dataset from [Kaggle](https://www.kaggle.com/datasets/usdot/flight-delays)
 
-[Dashboard Link](https://drive.google.com/drive/folders/1iuFUVCRwvwGZgBT-7TiIlWogbocrkhMW?usp=sharing)
+### [Dashboard Link](https://drive.google.com/drive/folders/1iuFUVCRwvwGZgBT-7TiIlWogbocrkhMW?usp=sharing)
 
 
 ![Summary](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/6.%20Airline%20Data%20Analysis/1.%20Summary%20Dashboard.png)
