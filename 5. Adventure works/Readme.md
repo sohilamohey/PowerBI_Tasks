@@ -1,11 +1,12 @@
-# Adventure works Data Warehouse
+# Adventure Works Data Analysis
+
 ## Description
-This repository contains the analysis of internet sales data using a data warehouse. The analysis involves connecting to the data source using SQL Server Management Studio (SSMS), preprocessing the data using Power Query, managing relations in Model View, creating measures using Data Analysis Expressions (DAX), and visualizing meaningful insights.
+This repository contains the analysis of Adventure Works data using a data warehouse. The analysis involves connecting to the data source using SQL Server Management Studio (SSMS), preprocessing the data using Power Query, managing relationships in Model View, creating measures using Data Analysis Expressions (DAX), and visualizing meaningful insights.
 
 ## Steps:
-1. **Connect the data source on SSMS**: Use SQL Server Management Studio (SSMS) to establish a connection with the ** Adventure Works ** data warehouse.
+1. **Connect the data source on SSMS**: Use SQL Server Management Studio (SSMS) to establish a connection with the Adventure Works data warehouse.
 2. **Preprocessing Data on Power Query**: Utilize Power Query to preprocess the data, including cleaning, transforming, and shaping it for analysis.
-3. **Manage Relations on Model View**: Define and manage relationships between different tables in the data model using the Model View feature.
+3. **Manage Relationships on Model View**: Define and manage relationships between different tables in the data model using the Model View feature.
 4. **Create Measures Using DAX**: Develop measures and calculated columns using Data Analysis Expressions (DAX) to derive insights and perform calculations on the data.
 5. **Visualize Meaningful Insights**: Visualize the analyzed data to extract meaningful insights using various visualization tools and techniques.
 
