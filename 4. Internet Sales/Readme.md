@@ -16,7 +16,15 @@ Visualize the analyzed data to extract meaningful insights using various visuali
 
 
 ![Main Dashboard](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/4.%20Internet%20Sales/1.%20Main%20Dashboard.png)
+
+
 ![Q&A](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/4.%20Internet%20Sales/2.%20Q%26%20A.png)
+
+
 ![Orders Number](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/4.%20Internet%20Sales/3.%20Orders%20Num.png)
+
+
 ![Sales Table](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/4.%20Internet%20Sales/4.%20Sales%20Table.png)
+
+
 ![Product Hierarchy](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/4.%20Internet%20Sales/5.%20Product%20Hierarchy.png)
