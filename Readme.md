@@ -1,96 +1,75 @@
-# 6 Dashboards on different datasets:
+# Power BI Dashboards
 
-## [1. Kickstarter Dashboard](https://github.com/sohilamohey/PowerBI_Tasks/tree/main/1.%20Kickstarter%20Dashboard)
-![logo](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/1.%20Kickstarter%20Dashboard/Kickstarter.png)
+Sixteen dashboards across sales, operations, aviation, sport, and health & safety — built
+from CSV, Excel, SQL Server and Python data sources. Each folder holds the `.pbix` file
+alongside page screenshots.
 
+## Sales & Retail
 
-## 2. [Sales Dashboard](https://github.com/sohilamohey/PowerBI_Tasks/tree/main/2.%20Sales%20Dashboard)
-![logo](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/2.%20Sales%20Dashboard/Sales.png)
+| Project | Description | Source |
+|---|---|---|
+| **[Internet Sales](./4.%20Internet%20Sales)** | Five-page report over an internet-sales data warehouse: main dashboard, order volumes, sales table, product hierarchy and a natural-language Q&A page | SQL Server (SSMS) → Power Query |
+| **[Adventure Works](./5.%20Adventure%20works)** | Seven-page analysis: home, overview, orders, salespeople, products, product detail and Q&A | Adventure Works dataset |
+| **[Superstore Sales](./12.%20Superstore%20Sales)** | Superstore sales performance, with a recorded walkthrough of the report | Excel |
+| **[Supermarket Sales](./11.%20Supermarket%20sales)** | Branch, product line and customer-type analysis of supermarket transactions | Kaggle CSV |
+| **[Sales Dashboard — two pages](./3.%20Sales%20Dashboard)** | Orders, products and regions, split across two report pages | Internet Sales DWH |
+| **[Sales Dashboard](./2.%20Sales%20Dashboard)** | Single-page sales overview | Excel |
+| **[Sales Data](./10.%20Sales%20data)** | Sales practice dashboard | Excel |
+| **[Kickstarter Campaigns](./1.%20Kickstarter%20Dashboard)** | Crowdfunding campaign outcomes by category, goal size and country | CSV |
 
-## 3. [Sales Dashboard](https://github.com/sohilamohey/PowerBI_Tasks/tree/main/3.%20Sales%20Dashboard)
-![logo](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/3.%20Sales%20Dashboard/Main%20Dashboard.png)
-![logo](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/3.%20Sales%20Dashboard/Page%202.png)
+## Operations & Analysis
 
-## 4. [Internet Sales](https://github.com/sohilamohey/PowerBI_Tasks/tree/main/4.%20Internet%20Sales)
-![Main Dashboard](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/4.%20Internet%20Sales/1.%20Main%20Dashboard.png)
-![Q&A](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/4.%20Internet%20Sales/2.%20Q%26%20A.png)
-![Orders Number](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/4.%20Internet%20Sales/3.%20Orders%20Num.png)
-![Sales Table](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/4.%20Internet%20Sales/4.%20Sales%20Table.png)
-![Product Hierarchy](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/4.%20Internet%20Sales/5.%20Product%20Hierarchy.png)
+| Project | Description | Source |
+|---|---|---|
+| **[Airline Data Analysis](./6.%20Airline%20Data%20Analysis)** | Flight delays broken down by airline, delay cause and route, with a summary page | CSV |
+| **[Employee Data — SQL + Power BI](./11.%20SQL%20%2B%20Power%20BI)** | Workforce dashboard fed directly from SQL Server queries | SQL Server |
+| **[Uber Drivers — Python + Power BI](./9.%20Python%20%2B%20Power%20BI)** | Driver activity and trip statistics, with Python used for preparation inside Power BI | Python + CSV |
+| **[UEFA European Championship](./13.%20UEFA%20European%20Championship)** | Tournament history — hosts, finalists, results and participating teams | Wikipedia |
 
-## 5. [Adventure works](https://github.com/sohilamohey/PowerBI_Tasks/tree/main/5.%20Adventure%20works)
-![Home](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/5.%20Adventure%20works/1.%20Home.png)
-![Overview](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/5.%20Adventure%20works/2.%20Overview.png)
-![Orders](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/5.%20Adventure%20works/3.%20Orders.png)
-![Sales Person](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/5.%20Adventure%20works/4.%20Sale%20Persons.png)
-![Products](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/5.%20Adventure%20works/5.%20Products.png)
-![Q&A](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/5.%20Adventure%20works/7.%20Q%26A.png)
+## Health, Safety & Risk (Arabic)
 
-## 6. [Airline Data Analysis](https://github.com/sohilamohey/PowerBI_Tasks/tree/main/6.%20Airline%20Data%20Analysis)
-![Summary](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/6.%20Airline%20Data%20Analysis/1.%20Summary%20Dashboard.png)
-![Delay by Airline Company](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/6.%20Airline%20Data%20Analysis/2.%20Delay%20by%20Airline%20Company.png)
-![Detailed Delay Time](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/6.%20Airline%20Data%20Analysis/3.%20Detailed%20Delay%20Time.png)
-![Fights](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/6.%20Airline%20Data%20Analysis/4_2.%20Flights.png)
+| Project | Description |
+|---|---|
+| **[نموذج الأمن و السلامة — Health & Safety Model](./14.%20%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%A7%D9%84%D8%A3%D9%85%D9%86%20%D9%88%20%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%D8%A9)** | Eight-page safety model: main overview, events, incidents, site facilities, inspections, evacuation plans, HSE equipment and permits |
+| **[تحليل مؤشرات المخاطر واستمرارية الأعمال — Risk & Business Continuity](./15.%20%D8%AA%D8%AD%D9%84%D9%8A%D9%84%20%D9%85%D8%A4%D8%B4%D8%B1%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D8%AE%D8%A7%D8%B7%D8%B1%20%D9%88%D8%A7%D8%B3%D8%AA%D9%85%D8%B1%D8%A7%D8%B1%D9%8A%D8%A9%20%D8%A7%D9%84%D8%A3%D8%B9%D9%85%D8%A7%D9%84)** | Risk indicators, compliance, services, continuity plans and test results |
 
-# Power-BI-Projects
-Data Analysis and Visualization Projects
+## Virtual Internships
 
-## [Internet Sales](https://github.com/sohilamohey/PowerBI_Tasks/tree/main/4.%20Internet%20Sales)
-![Main Dashboard](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/4.%20Internet%20Sales/1.%20Main%20Dashboard.png)
-![Q&A](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/4.%20Internet%20Sales/2.%20Q%26%20A.png)
-![Orders Number](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/4.%20Internet%20Sales/3.%20Orders%20Num.png)
-![Sales Table](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/4.%20Internet%20Sales/4.%20Sales%20Table.png)
-![Product Hierarchy](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/4.%20Internet%20Sales/5.%20Product%20Hierarchy.png)
+| Project | Description |
+|---|---|
+| **[PwC Switzerland — Power BI Virtual Case Experience](./8.%20PWC%20Power%20BI%20Vitrual%20Internship)** | Three deliverables: call-centre trends, customer retention, and diversity & inclusion |
+| **[KPMG Data Analytics Internship](./7.%20KPMG)** | Customer and transaction analysis for a bike retailer |
 
-## [Adventure works](https://github.com/sohilamohey/PowerBI_Tasks/tree/main/5.%20Adventure%20works)
-![Home](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/5.%20Adventure%20works/1.%20Home.png)
-![Overview](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/5.%20Adventure%20works/2.%20Overview.png)
-![Orders](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/5.%20Adventure%20works/3.%20Orders.png)
-![Sales Person](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/5.%20Adventure%20works/4.%20Sale%20Persons.png)
-![Products](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/5.%20Adventure%20works/5.%20Products.png)
-![Q&A](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/5.%20Adventure%20works/7.%20Q%26A.png)
+## Previews
 
-## [Airline Data Analysis](https://github.com/sohilamohey/PowerBI_Tasks/tree/main/6.%20Airline%20Data%20Analysis)
-![Summary](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/6.%20Airline%20Data%20Analysis/1.%20Summary%20Dashboard.png)
-![Delay by Airline Company](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/6.%20Airline%20Data%20Analysis/2.%20Delay%20by%20Airline%20Company.png)
-![Detailed Delay Time](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/6.%20Airline%20Data%20Analysis/3.%20Detailed%20Delay%20Time.png)
-![Fights](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/6.%20Airline%20Data%20Analysis/4_2.%20Flights.png)
+**Adventure Works — Overview**
 
+![Adventure Works overview](./5.%20Adventure%20works/2.%20Overview.png)
 
-## [Transactions and Customers Analysis]()
-![logo](https://github.com/sohilamohey/Power-BI-Projects/blob/main/KPMG/NewTransactions.png)
-![logo](https://github.com/sohilamohey/Power-BI-Projects/blob/main/KPMG/NewCustomer.png)
+**Internet Sales — Main Dashboard**
 
-## [Gravity Books]()
-![logo](https://github.com/sohilamohey/Data-Warehouse/blob/main/Gravity%20Books%20Project/04.%20Dashboard/02.%20Main%20Dashboard.png)
-![logo](https://github.com/sohilamohey/Data-Warehouse/blob/main/Gravity%20Books%20Project/04.%20Dashboard/03.%20Dashboard%20Details%20Page.png)
+![Internet Sales main dashboard](./4.%20Internet%20Sales/1.%20Main%20Dashboard.png)
 
-## [Uber](https://github.com/sohilamohey/Power-BI-Projects/tree/main/Python%20%2B%20Power%20BI/Uber%20Drivers)
-![logo](https://github.com/sohilamohey/Power-BI-Projects/blob/main/Python%20%2B%20Power%20BI/Uber%20Drivers/Uber%20Dashboard.png)
-![logo](https://github.com/sohilamohey/Power-BI-Projects/blob/main/Python%20%2B%20Power%20BI/Uber%20Drivers/Uber%20Statistics.png)
+**Airline Data Analysis — Summary**
 
-## [Super Store Data Analysis](https://github.com/sohilamohey/Power-BI-Projects/tree/main/Superstore%20Sales)
-![Logo](https://github.com/sohilamohey/Power-BI-Projects/blob/main/Superstore%20Sales/Dashboard.png)
+![Airline data analysis summary](./6.%20Airline%20Data%20Analysis/1.%20Summary%20Dashboard.png)
 
+**Health & Safety Model — Main Page**
 
-## [Sales Dashboard](https://github.com/sohilamohey/PowerBI_Tasks/tree/main/2.%20Sales%20Dashboard)
-![logo](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/2.%20Sales%20Dashboard/Sales.png)
+![Health and safety model main page](./14.%20%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%A7%D9%84%D8%A3%D9%85%D9%86%20%D9%88%20%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%D8%A9/1%20%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%A7%D9%84%D8%A3%D9%85%D9%86%20%D9%88%20%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D8%A9.png)
 
-## [Sales Dashboard](https://github.com/sohilamohey/PowerBI_Tasks/tree/main/3.%20Sales%20Dashboard)
-![logo](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/3.%20Sales%20Dashboard/Main%20Dashboard.png)
-![logo](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/3.%20Sales%20Dashboard/Page%202.png)
+**PwC — Call Centre Dashboard**
 
+![PwC call centre dashboard](./8.%20PWC%20Power%20BI%20Vitrual%20Internship/01%20Call%20Center%20Dashboard/01%20Call%20Center%20Dashboard.png)
 
-## [Call Center](https://github.com/sohilamohey/Power-BI-Projects/tree/main/PWC%20Power%20BI%20Vitrual%20Internship/01%20Call%20Center%20Dashboard)
-![logo](https://github.com/sohilamohey/Power-BI-Projects/blob/main/PWC%20Power%20BI%20Vitrual%20Internship/01%20Call%20Center%20Dashboard/01%20Call%20Center%20Dashboard.png)
+## Skills Demonstrated
 
-## [Diversity Inclusion Dataset](https://github.com/sohilamohey/Power-BI-Projects/tree/main/PWC%20Power%20BI%20Vitrual%20Internship/03%20Diversity-Inclusion-Dataset)
-![logo](https://github.com/sohilamohey/Power-BI-Projects/blob/main/PWC%20Power%20BI%20Vitrual%20Internship/03%20Diversity-Inclusion-Dataset/03%20Diversity-Inclusion-Dashboard.png)
+- **Connecting and shaping** — SQL Server, Excel, CSV and Python sources through Power Query.
+- **Modelling** — star schemas, relationships, hierarchies and DAX measures.
+- **Report design** — multi-page reports, drill-through, bookmarks, slicers and Q&A visuals.
+- **Bilingual reporting** — right-to-left Arabic layouts alongside English reports.
 
-## [Customer Retention Dashboard](https://github.com/sohilamohey/Power-BI-Projects/tree/main/PWC%20Power%20BI%20Vitrual%20Internship/02%20Customer%20Retention)
-![logo](https://github.com/sohilamohey/Power-BI-Projects/blob/main/PWC%20Power%20BI%20Vitrual%20Internship/02%20Customer%20Retention/Customer%20Retention%20Dashboard.png)
+---
 
-## [Kickstarter Dashboard](https://github.com/sohilamohey/PowerBI_Tasks/tree/main/1.%20Kickstarter%20Dashboard)
-![logo](https://github.com/sohilamohey/PowerBI_Tasks/blob/main/1.%20Kickstarter%20Dashboard/Kickstarter.png)
-
-
+**Sohila Mohey Mahmoud** — Data Analyst
+[GitHub](https://github.com/sohilamohey)
